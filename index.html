@@ -1,32 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <title>Dicee</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Roll the Dice</title>    
     <link
       href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="container">
-      <h1>Refresh Me</h1>
+      <h1>Roll the Dice</h1>
 
-      <div class="dice">
-        <p>Player 1</p>
-        <img class="img1" src="./images/dice6.png" />
+      <div>
+        <div class="dice">
+          <p>Player 1</p>
+          <img class="img1" src="./assets/images/dice6.png" />
+        </div>
+
+        <div class="dice">
+          <p>Player 2</p>
+          <img class="img2" src="./assets/images/dice6.png" />
+        </div>
       </div>
 
-      <div class="dice">
-        <p>Player 2</p>
-        <img class="img2" src="./images/dice6.png" />
-      </div>
+      <button id="rollButton" type="button" value="Roll" onclick="rollDices()">Roll</button>
     </div>
 
-    <input id="rollButton" type="button" value="Roll" onclick="rollDices();" />
-
     <script src="./index.js"></script>
-    <footer>www 🎲 App Brewery 🎲 com</footer>
+    <footer>
+      Assets by <a href="https://www.appbrewery.com/">The App Brewery</a>
+    </footer>
   </body>
 </html>
