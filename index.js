@@ -30,7 +30,7 @@ function rollDices() {
     animateButton();
 
     //console.log("Rolling the dice");
-    
+
     let player1DiceNr = Math.floor((Math.random() * 6)) + 1; //random nr between 1-6
     //console.log(player1DiceNr);
     player1Dice.src = "./assets/images/dice" + player1DiceNr + ".png";

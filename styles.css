@@ -1,78 +1,79 @@
 body {
-  background-color: #393e46;
-  margin: 0;
+    background-color: #393e46;
+    margin: 0;
 }
 
 footer {
-  margin-top: 4vh;
-  color: #eeeeee;
-  text-align: center;
-  font-family: "Indie Flower", cursive;
+    margin-top: 4vh;
+    color: #eeeeee;
+    text-align: center;
+    font-family: "Indie Flower", cursive;
 }
 
 footer > a {
-  color: #d79223;
+    color: #d79223;
 }
 
 .container {
-  text-align: center;
+    text-align: center;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 .container > h1 {
-  margin: 20px;
-  font-family: "Lobster", cursive;
-  text-shadow: 5px 0 #232931;
-  font-size: 8rem;
-  color: #4ecca3;
-  height: 175px;
-  text-align: center;
+    margin: 20px;
+    font-family: "Lobster", cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: #4ecca3;
+    height: 175px;
+    text-align: center;
 }
 
 .container p {
-  font-size: 2rem;
-  color: #4ecca3;
-  font-family: "Indie Flower", cursive;
+    font-size: 2rem;
+    color: #4ecca3;
+    font-family: "Indie Flower", cursive;
 }
 
 .container img {
-  width: 80%;
+    width: 80%;
 }
 
 .dice {
-  text-align: center;
-  display: inline-block;
+    text-align: center;
+    display: inline-block;
 }
 
 #rollButton {
-  border: 2px solid;
-  height: 50px;
-  width: 100px;
-  margin-top: 20px;
-  border-radius: 6px;
+    border: 2px solid;
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 6px;
 
-  font-family: "Lobster", cursive;
-  font-size: larger;
-  
-  background-color: rgb(155, 6, 11);
-  color: rgb(210, 210, 210);
-  border: 0px solid rgb(200, 200, 200);
-  box-shadow: 0px 6px 1px rgb(194, 194, 194);
+    font-family: "Lobster", cursive;
+    font-size: larger;
+
+    background-color: rgb(155, 6, 11);
+    color: rgb(210, 210, 210);
+    border: 0px solid rgb(200, 200, 200);
+    box-shadow: 0px 6px 1px rgb(194, 194, 194);
 }
 
 #rollButton:hover {
-  background-color: #d6060d;
-  color: rgb(255, 255, 255);  
-  cursor: pointer;
+    background-color: #d6060d;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 
-#rollButton:active, #rollButton:disabled {
-  background-color: #63050c;
-  color: rgb(150, 150, 150);
-  border: 3px solid rgb(200, 200, 200);
+#rollButton:active,
+#rollButton:disabled {
+    background-color: #63050c;
+    color: rgb(150, 150, 150);
+    border: 3px solid rgb(200, 200, 200);
 }
